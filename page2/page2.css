@@ -1,0 +1,251 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    
+    background-image: linear-gradient(rgba(12,15,15,0), rgba(15,15,15, 2)), url(father-and-son-2258681_1280.jpg);
+    background-position: cover;
+    background-size: cover;
+    margin: 0;
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    position: absolute;
+    transition: 1s ease;
+
+
+    
+}
+
+.main-heading{
+    display: flex;
+    width: 500px;
+    height: 150px;
+    border: 3px solid white;
+    position: absolute;
+    transform: translate(-50, -50);
+    margin-left: 570px;
+    margin-top: 80px;
+    transition: 1s ease;
+    
+    
+}
+
+.main-heading2{
+    display: flex;
+    width: 500px;
+    height: 200px;
+    border: 3px solid white;
+    position: absolute;
+    transform: translate(-50, -50);
+    margin-left: 570px;
+    margin-top: 280px;
+    transition: 1s ease;
+    color: white;
+    font-size: 20px;
+}
+
+.main-heading3{
+    display: flex;
+    width: 500px;
+    height: 200px;
+    border: 3px solid white;
+    position: absolute;
+    transform: translate(-50, -50);
+    margin-left: 570px;
+    margin-top: 530px;
+    transition: 1s ease;
+    color: white;
+    font-size: 20px;
+}
+
+/* .container_img::after{
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+.joshua{
+    margin-top: 45px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin-left: 45px;
+    border-radius: 50%;
+    padding: 5px;
+    float: left;
+    row-gap: 10rem;
+    flex-direction: column;
+    opacity: .2;
+    transition: opacity 1s;
+    border: 3px solid white;
+    position: relative;
+
+}
+
+.joshua1{   
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin: 45px;
+    border-radius: 50%;
+    padding: 5px;
+    float: right;
+    row-gap: 10rem;
+    flex-direction: column;
+    opacity: .2;
+    transition: opacity 1s ease;
+    margin-right: 45px;
+    position: relative;
+    border: 3px solid white;
+
+}
+
+.joshua img{
+    border-radius: 50%;
+
+}
+
+.joshua1 img{
+    border-radius: 50%;
+}
+
+.joshua:hover{
+    opacity: 10;
+}
+
+.joshua1:hover{
+    opacity: 10;
+}
+
+.joshua:active{
+    
+}
+
+.joshua3{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    margin: 45px;
+    border-radius: 50%;
+    padding: 5px;
+    float: left;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 350px;
+    border: 3px solid white;
+    opacity: .2; 
+    transition: opacity 1s;  
+    margin-top: 450px;
+}
+
+.joshua3 img{
+    border-radius: 50%;
+}
+
+.joshua3:hover{
+    opacity: 10;
+}
+
+
+.left-column{
+    float: left;
+}
+
+.right-column{
+    float: right;
+}
+
+.joshua4{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    border-radius: 50%;
+    padding: 5px;
+    /* float: right; */
+    flex-direction: column;
+    position: absolute;
+    border: 3px solid white;
+    opacity: .2; 
+    transition: opacity 1s;  
+    margin-right: 0px;
+    margin-top: 450px;
+    transition: opacity 1s;
+    margin-left: 45px;
+}
+
+.joshua4 img{
+    border-radius: 50%;
+    
+}
+
+.joshua4:hover{
+    opacity: 10;
+}
+
+.main-heading:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    opacity: 10;
+}
+
+.main-heading h1:hover{
+    color: black;
+    opacity: 10;
+}
+
+.main-heading2:active{
+
+}
+
+.main-heading2:hover{
+    background-color: white;
+    color: black;
+    opacity: 10;
+    border: 3px solid black;
+}
+
+.main-heading2 h1:hover{
+    color: black;
+    opacity: 10;
+}
+
+.main-heading3:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    opacity: 10;
+}
+
+.main-heading3 h1:hover{
+    color: black;
+    opacity: 10;
+}
+
+.next-btn{
+    list-style-type: none;
+    text-decoration:none;
+    padding: 5px 20px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    position: absolute; 
+    align-items: baseline;
+    align-self: baseline;
+    font-weight: bold;    
+    transition: 0.69s ease;
+    border: 3px solid white;
+    transform: translate(-50%, 1900%);
+    
+}
+
+.next-btn:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid red;
+}

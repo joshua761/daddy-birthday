@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0, 0.9)), url(images/avengers-wallpaper.jpg); ;
+    background-position: cover;
+    background-size: cover;
+}
+
+.quote1 {
+    font-size: 50px;
+    margin-top: 15px;
+    color: white;
+    padding: 5px;
+}
+
+.first-row{
+    margin-top: 29px;
+
+}
+
+
+.daddyimg1 {
+    position: absolute;
+    height: 300px;
+    width: 508px;
+    margin-left: 15px;
+    margin-top: 25px;
+    border-radius: 25%;
+}
+
+#spider-man-img {
+    position: absolute;
+    height: 300px;
+    width: auto;
+    margin-left: 15px;
+    margin-top: 25px;
+    border-radius: 25%;
+    transition: opacity 1s ease;
+
+}
+
+#spider-man-img:hover {
+    opacity: 0;
+}
+
+.daddyimg2 {
+    position: absolute;
+    border-radius: 25%;
+    height: 300px;
+    width: 400px;
+    margin-left: 535px;
+    margin-top: 25px;
+}
+
+#super_man_img {
+    position: absolute;
+    border-radius: 20%;
+    height: 300px;
+    width: auto;
+    margin-left: 535px;
+    margin-top: 25px;
+    transition: opacity 1s ease;
+
+}
+
+#super_man_img:hover {
+    opacity: 0;
+}
+
+.daddyimg3 {
+    height: 300px;
+    width: 528px;
+    float: right;
+    border-radius: 25%;
+    margin-top: 25px;   
+    margin-right: 6px;
+}
+
+.hulk-img{
+    height: 300px;
+    width: auto;
+    float: right;
+    border-radius: 25%;
+    margin-top: 25px;   
+    margin-left: 950px;
+    position: absolute;   
+    transition: opacity 1s ease;
+}
+
+.hulk-img:hover {
+    opacity: 0;
+}
+
+.quote2 {
+    font-size: 45px;
+    position: absolute;
+    color: white;
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin-left: 350px;
+    margin-bottom: 400px;
+    width: 900px;
+
+}
+
+.next-btn {
+    color: white;
+    font-size: 20px;
+    align-items: baseline;
+    align-self: baseline;
+    position: absolute;
+    margin-top: 550px;
+    list-style-type: none;
+    text-decoration:none;
+    padding: 6px 24px;    
+    font-weight: bold;    
+    transition: 0.69s ease;
+    margin-left: 250px;
+    border: 3px solid white;
+    
+}
+
+.next-btn:hover {
+    color: black;
+    background-color: white;
+    border: 3px solid red;
+}
+

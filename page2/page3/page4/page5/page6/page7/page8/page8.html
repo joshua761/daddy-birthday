@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            font-family: sans-serif;
+        }
+
+        h1 {
+            font-size: 40px;
+            position: relative;
+        }
+
+        #userInput {
+            margin-top: 12px;
+            font-size: 25px;
+            height: 200px;
+            width: 500px;
+        }
+
+        .something {
+            margin-top: 0px;
+            font-size: 25px;
+        }
+
+        #something2 {
+            margin-top: 205px;
+        }
+
+        #submitBtn {
+            border: 3px solid black;
+            font-size: 25px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <center><h1>Submit you review.</h1></center>
+
+    <center><textarea  id="userInput" cols="30" rows="10"></textarea></center>
+
+    <center><p id="myP"></p></center>
+
+    <center><label id="something2" for="rating">Enter a review (1 - 10)</label></center>
+
+    <center><input type="text" id="rating"></center>
+
+    <center><p id="toFill"></p></center>
+
+    <script src="page8.js"></script>
+
+    <center><button id="submitBtn" type="submit">Submit</button></center>
+</body>
+</html>

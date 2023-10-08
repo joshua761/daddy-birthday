@@ -1,0 +1,99 @@
+*{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background-image: url(2021-father-son-fun-image.jpg);
+    background-position: cover;
+    background-size: cover;
+}
+
+.heading1{
+    margin-left: 900px;
+    margin-top: 450px;
+    position: absolute;
+    width: 320px;
+    height: 180px;
+    border: 3px solid black;
+    transition: 0.15s ease;
+}
+
+.heading2{
+    margin-left: 700px;
+    margin-top: 60px;
+    position: absolute;
+    width: 540px;
+    height: 240px;
+    border: 3px solid black;
+
+}
+
+
+.images{
+    float: right;
+}
+
+.image img{
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    border-radius: 50%;
+    margin-right: 350px;
+
+}
+
+.img1 img{
+    float: right;
+    border-radius: 50%;
+}
+
+.image2 img{
+    width: 300px;
+    height: 350px;
+    border-radius: 50%;
+    position: relative;
+    transition: opacity 0.15s;
+
+}
+
+.image2 img:active{
+    opacity: 0;
+}
+
+.image2 img:hover{
+    filter: brightness(100%);
+}
+
+.heading1:hover{
+    background-color: black;
+    color: white;
+}
+
+.heading2:hover{
+    background-color: black;
+    color: white;
+}
+
+.next-btn{
+    list-style-type: none;
+    text-decoration:none;
+    padding: 5px 20px;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+    position: absolute; 
+    align-items: baseline;
+    align-self: baseline;
+    font-weight: bold;    
+    transition: 0.69s ease;
+    border: 3px solid black;
+    transform: translate(-550%, 350px);
+    
+}
+
+.next-btn:hover{
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+}
